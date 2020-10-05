@@ -99,7 +99,7 @@ class Auth extends BaseController
                 ]
             ],
             'email' => [
-                'rules' => 'is_unique[users.email]',
+                'rules' => 'is_unique[user.email]',
                 'errors' => [
                     'is_unique' => 'Email already registered'
                 ]
